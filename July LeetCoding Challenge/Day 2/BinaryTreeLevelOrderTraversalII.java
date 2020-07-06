@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class BinaryTreeLevelOrderTraversalII {
+class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> levelOrderBottomList = new LinkedList<List<Integer>>();
         levelMaker(levelOrderBottomList, root, 0);
