@@ -1,4 +1,4 @@
-class PrisonCellsAfterNDays {
+class Solution {
     public int[] prisonAfterNDays(int[] cells, int N) {
         if (cells == null || cells.length == 0 || N <= 0) {
             return cells;
