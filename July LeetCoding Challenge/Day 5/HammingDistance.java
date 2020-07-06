@@ -1,4 +1,4 @@
-class HammingDistance {
+class Solution {
     public int hammingDistance(int x, int y) {
         int xor = x ^ y;
         int setBits = 0;
